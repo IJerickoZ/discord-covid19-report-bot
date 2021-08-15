@@ -1,6 +1,9 @@
 # [ทำเองใช้เอง] discord-covid19-report
+ทำเรื่อยๆเพราะไม่ใช่เจคคณะ ตอนนี้ยังไม่ Flexibility สักเท่าไหร่เพราะยังกำหนด channel แบบตายตัว 
+เดี๋ยวจัดการฝั่ง Discord เสร็จ + ย่อย component แล้ว ค่อยไปทำหน้าเว็บกับหลังบ้านเพิ่ม ให้ยืดหยุ่นกว่านี้ 
+สามารถกำหนด server กับ channel ได้บนหน้าเว็บ
 
-### Features BOT Covid-19 Report on Discord
+## Features BOT Covid-19 Report on Discord
 - รายงานยอดผู้ติดเชื้อประจำวัน
 - รายงานยอดผู้รักษาตัวหายแล้วประจำวัน
 - รายงานยอดผู้เสียชีวิตประจำวัน
@@ -17,3 +20,5 @@
 
 ## Ref
 - https://disease.sh/
+
+Readme Updated: 15/8/2021
