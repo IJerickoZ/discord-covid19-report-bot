@@ -28,6 +28,7 @@ client.on("ready", () => {
     .catch((err) => {
       console.log(err)
     })
+  client.user.setActivity("IJericko The Handsome Man", { type: "WATCHING" })
 });
 
 let scheduledMessage = new cron.CronJob('00 00 16 * * *', () => {
