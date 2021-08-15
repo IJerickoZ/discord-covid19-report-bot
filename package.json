@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "12": "^1.0.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  }
+}
