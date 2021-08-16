@@ -31,7 +31,7 @@ client.on("ready", () => {
   client.user.setActivity("IJericko The Handsome Man", { type: "WATCHING" })
 });
 
-let scheduledMessage = new cron.CronJob('00 00 9 * * *', () => {
+let scheduledMessage = new cron.CronJob('00 00 09 * * *', () => {
 let channel = client.channels.cache.get('876310958191042590');
 // let channel = client.channels.cache.get('790578744166973461');
     axios
@@ -93,7 +93,7 @@ let channel = client.channels.cache.get('876310958191042590');
         console.log(err)
       })
   })
-  scheduledMessage.start()
+  
 
 client.on("message", (msg) => {
   if (msg.content === "!covid") {
@@ -158,5 +158,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });
-
+scheduledMessage.start()
 client.login(process.env.BOT_TOKEN);
