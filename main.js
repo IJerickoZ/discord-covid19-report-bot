@@ -82,8 +82,8 @@ let channel = client.channels.cache.get('876310958191042590');
                       inline: true
                   },
                   {
-                    name: `Ref: https://disease.sh/`,
-                    value: `ปล.api ตัวใหม่ไม่แน่ใจว่าอัพเดทข้อมูลตอนกี่โมง`,
+                    name: `Power by IJericko`,
+                    value: `Ref: https://disease.sh/`,
                   },
                 ],
               },
@@ -99,7 +99,7 @@ client.on("message", (msg) => {
   if (msg.content === "!covid") {
     if(msg.channel.id == "876310958191042590"){
     // if(msg.channel.id == "790578744166973461"){
-      newCase = data.todayCases;
+        newCase = data.todayCases;
         newRecovery = data.todayRecovered
         newDeath = data.todayDeaths
         totalCase = data.cases
@@ -144,8 +144,8 @@ client.on("message", (msg) => {
                     inline: true
                 },
                 {
-                  name: `Ref: https://disease.sh/`,
-                  value: `ปล.api ตัวใหม่ไม่แน่ใจว่าอัพเดทข้อมูลกี่โมง`,
+                  name: `Power by IJericko`,
+                  value: `Ref: https://disease.sh/`,
                 },
               ],
             }
