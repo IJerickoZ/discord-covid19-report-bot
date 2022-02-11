@@ -82,7 +82,7 @@ let channel = client.channels.cache.get('876310958191042590');
                       inline: true
                   },
                   {
-                    name: `Power by IJericko`,
+                    name: `Powered by IJericko`,
                     value: `Ref: https://disease.sh/`,
                   },
                 ],
@@ -144,7 +144,7 @@ client.on("message", (msg) => {
                     inline: true
                 },
                 {
-                  name: `Power by IJericko`,
+                  name: `Powered by IJericko`,
                   value: `Ref: https://disease.sh/`,
                 },
               ],
